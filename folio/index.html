@@ -1,0 +1,464 @@
+<html>
+
+<head>
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Yellowtail" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+    <!-- Component CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/freelancer001.css">
+    <!-- Title -->
+    <title>Fittywebdev</title>
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div class="row">
+                <div class="col4 logo">
+                    <h1 class="brand">
+                        <a href="/"> Frédéric Guerra</a>
+                    </h1>
+                </div>
+                <div class="col8">
+                    <div class="menu-toggle">
+                        <i class="fa fa-minus"></i>
+                        <i class="fa fa-minus"></i>
+                        <i class="fa fa-minus"></i>
+                    </div>
+                    <nav class="menu" id="primary-menu">
+                        <ul class="menu-nav">
+                            <li class="menu-nav-item"><a href="#about">A Propos</a></li>
+                            <li class="menu-nav-item"><a href="#skills">Compétences</a></li>
+                            <li class="menu-nav-item"><a href="#portfolio">Portfolio</a></li>
+                            <!-- <li class="menu-nav-item"><a href="#clients">Clients</a></li> -->
+                            <li class="menu-nav-item"><a href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="section" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col6">
+                    <img class="img-rounded" id="avatar" src="images/logo.png" alt="Joe Freelancer">
+                </div>
+                <div class="col6">
+                    <header class="section-header">
+                        <h1 class="section-title site-title text-left">Hello, moi c'est Fred.</h1>
+                        <p class="lead">Je suis autodidacte depuis 2017, en formation de développeur web junior
+                            depuis
+                            Aout 2018. Italien d'origine, Non posso vivere senza la mia pasta e un buono espresso ! je
+                            suis aussi un fou de fitness.</p>
+                        <p class="lead">J'ai travaillé pour deux clients, une tatoueuse (réalisation du site de A à Z,
+                            de la maquette avec adobe XD à la mise en ligne du site) et une plateforme éducative, pour
+                            laquelle j'ai utilisé Worpress.</p>
+                        <p class="lead">J'aime les sites au design simple, épurés et minimalistes. Mes deux mantras:
+                            "good design is as little design as possible"; "good design is honest" <span>Dieter
+                                Rams</span></p>
+                        <a class="btn btn-primary" href="images/CV Frédéric GUERRA DEVELOPPEUR WEB.pdf"
+                            target="_blank">Mon CV</a>
+                    </header>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section" id="skills">
+        <div class="container">
+            <div class="row">
+                <div class="col12">
+                    <header class="section-header">
+                        <h1 class="section-title">Mes compétences</h1>
+                        <p class="lead text-center">En formation avec un objectif clair, faire de mes bases de solides
+                            fondations ! </p>
+                    </header>
+                </div>
+            </div>
+            <div class="row features-list">
+                <div class="col4 feature-item text-center">
+                    <i class="fa fa-code feature-icon"></i>
+                    <h3 class="feature-title">Front</h3>
+                    <p class="feature-description">Utilisation des langages HTML 5, CSS 3, Javascript, Jquery,
+                        Bootstrap.</p>
+                </div>
+                <div class="col4 feature-item text-center">
+                    <i class="fa fa-terminal feature-icon"></i>
+                    <h3 class="feature-title">back</h3>
+                    <p class="feature-description">En formation sur Python, Django et la ligne de commande. Node.js,
+                        Wordpress, PHP</p>
+                </div>
+                <div class="col4 feature-item text-center">
+                    <i class="fa fa-palette feature-icon"></i>
+                    <h3 class="feature-title">Design</h3>
+                    <p class="feature-description">Formation Adobe XD et Figma, réalisation de maquettes et de
+                        prototypes</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section" id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col12">
+                    <header class="section-header">
+                        <h1 class="section-title">Mon Portfolio</h1>
+                        <p class="lead text-center">Découvrez quelques-uns de mes projets</p>
+                    </header>
+                </div>
+            </div>
+            <div class="row no-gutter portfolio">
+                <div class="col3 portfolio-item">
+                    <a data-fancybox="gallery" data-src="#001" href="">
+                        <img src="images/portfolio/webagency_480x350.jpg" alt="001">
+                    </a>
+                    <div style="display:none;" class="portfolio-pop" id="001">
+                        <div class="row">
+                            <div class="col8">
+                                <img src="images/portfolio/webagency.png" alt="001">
+                            </div>
+                            <div class="col4">
+                                <h3 class="project-title">Web agency</h3>
+                                <div class="lead project-description">
+                                    <p>Projet réalisé dans le cadre de ma formation développeur web junior avec
+                                        openclassrooms. Ce projet devait être responsif et s'adapter aux mobiles et
+                                        tablettes.</p>
+                                    <p class="projet-paragraphe">Nous devions intégrer une maquette afin de réaliser les
+                                        différentes pages du site avec HTML et CSS3. Pour cela nous disposions de photos
+                                        et de quelques indications.</p>
+                                    <p class="projet-paragraphe">Ce projet m'a permis d'acquérir les bases de ces deux
+                                        langages, utilisation de flexbox réalisation d'un slider en CSS, animation,
+                                        pseudo classes, média queries...</p>
+                                    <!-- <p>Sed vitae efficitur turpis. Nam neque semper neque et vestibulum egestas. Proin feugiat enim sit amet molestie placerat. Integer consequat enim aliquam, ullamcorper mauris id, maximus tortor.</p> -->
+                                    <a href="http://www.fittywebdev.pro/web-agency/" target="_blank"
+                                        class="project-link">&Rarr;</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col3 portfolio-item">
+                    <a data-fancybox="gallery" data-src="#002" href="">
+                        <img src="images/portfolio/fitty_480x350.jpg" alt="002">
+                    </a>
+                    <div style="display:none;" class="portfolio-pop" id="002">
+                        <div class="row">
+                            <div class="col8">
+                                <img src="images/portfolio/fitty.png" alt="002">
+                            </div>
+                            <div class="col4">
+                                <h3 class="project-title">Fittywell kids</h3>
+                                <div class="lead project-description">
+                                    <p>Projet réalisé pour un client, une entreprise Fittywellkids qui voulait une
+                                        plateforme éducative pour apprendre aux enfants a bien manger.</p>
+                                    <p class="projet-paragraphe">Le client voulait une réalisation rapide et voulait
+                                        pouvoir garder la main sur le site pour continuer a mettre des articles de blogs
+                                        et des vidéos. Nous avons donc opté pour le cms Wordpress</p>
+                                    <p class="projet-paragraphe">J'ai donc choisi un thème pour enfant, que j'ai
+                                        personnalisé pour répondre aux besoin de la société, et réalisé un site
+                                        attractif et gai. Le client a été formé pour alimenter les différentes pages du
+                                        site en autonomie.</p>
+                                    <!-- <p>Sed vitae efficitur turpis. Nam semper neque et vestibulum egestas. Proin feugiat enim sit amet molestie placerat. Integer consequat enim aliquam, ullamcorper mauris id, maximus tortor.</p> -->
+                                    <a href="https://www.fittywellkids.com" target="_blank"
+                                        class="project-link">&Rarr;</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col3 portfolio-item">
+                    <a data-fancybox="gallery" data-src="#003" href="">
+                        <img src="images/portfolio/Starsbourg_480x350.jpg" alt="003">
+                    </a>
+                    <div style="display:none;" class="portfolio-pop" id="003">
+                        <div class="row">
+                            <div class="col8">
+                                <img src="images/portfolio/Starsbourg.png" alt="003">
+                            </div>
+                            <div class="col4">
+                                <h3 class="project-title">Strasbourg</h3>
+                                <div class="lead project-description">
+                                    <p>Deuxième projet réalisé dans le cadre de ma formation de développeur web, cette
+                                        fois ci avec le cms Worpress pour réaliser le site fictif de la ville de
+                                        Strasbourg.</p>
+                                    <p class="projet-paragraphe">Ici nous devions personnalisé un thème enfant, en
+                                        respectant un cahier des charges précis. Pas de builder, mais une
+                                        personnalisation grâce aux langage HTML et CSS.</p>
+                                    <p class="projet-paragraphe">Projet intérressant car sans builder il m'a fallu
+                                        entrer dans les "entrailles" de Wordpress, notamment pour l'animation. J'ai
+                                        aussi appris a utiliser de nombreux plugs in; centres nerveux de Wordpress!</p>
+                                    <!-- <p>Sed vitae efficitur turpis. Nam semper neque et vestibulum egestas. Proin feugiat enim sit amet molestie placerat. Integer consequat enim aliquam, ullamcorper mauris id, maximus tortor.</p> -->
+                                    <a href="http://www.fittywebdev.pro/" target="_blank"
+                                        class="project-link">&Rarr;</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col3 portfolio-item">
+                    <a data-fancybox="gallery" data-src="#004" href="">
+                        <img src="images/portfolio/tatoo_480x350.jpg" alt="004">
+                    </a>
+                    <div style="display:none;" class="portfolio-pop" id="004">
+                        <div class="row">
+                            <div class="col8">
+                                <img src="images/portfolio/tatoo.png" alt="004">
+                            </div>
+                            <div class="col4">
+                                <h3 class="project-title">Pink Flamingo</h3>
+                                <div class="lead project-description">
+                                    <p>Site réalisé pour une amie tatoueuse, qui voulait un site pour améliorer sa
+                                        visibilté en ligne. Elle voulait un site qui lui corresponde mais n'avait pas de
+                                        cahier des charges précis</p>
+                                    <p class="projet-paragraphe">Nous avons donc établi ensemble la charte graphique, le
+                                        code couleur et la typo pour faire un site a son image, "girly", mais sérieux et
+                                        professionnel avec une mise en avant de son travail.</p>
+                                    <p class="projet-paragraphe">Pour ce site je me suis formé a Jquery, et j'ai utilisé
+                                        des plug in CSS comme animate on scroll, ce qui a rendu la réalisation du site
+                                        très intérressante, c'est le premier site que j'ai réalisé avant ma formation..
+                                    </p>
+                                    <!-- <p>Sed vitae efficitur turpis. Nam semper neque et vestibulum egestas. Proin feugiat enim sit amet molestie placerat. Integer consequat enim aliquam, ullamcorper mauris id, maximus tortor.</p> -->
+                                    <a href="http://www.fittywebdev.pro/begin" target="_blank"
+                                        class="project-link">&Rarr;</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row no-gutter portfolio">
+                <div class="col3 portfolio-item">
+                    <a data-fancybox="gallery" data-src="#005" href="">
+                        <img src="images/portfolio/hécate.jpeg" alt="005">
+                    </a>
+                    <div style="display:none;" class="portfolio-pop" id="005">
+                        <div class="row">
+                            <div class="col8">
+                                <img src="images/portfolio/hécate.png" alt="005">
+                            </div>
+                            <div class="col4">
+                                <h3 class="project-title">Hécate</h3>
+                                <div class="lead project-description">
+                                    <p>Pour apprendre le javascript et consolider mes bases j'ai réalisé une application
+                                        météo qui localise l'adresse IP de l'utilisateur pour lui donner la météo.</p>
+                                    <p class="projet-paragraphe">Ce projet m' a permis de comprendre comment me
+                                        connecter et utiliser une API avec javascript, afin de récupérer des données et
+                                        les utiliser dans l'application.</p>
+                                    <p class="projet-paragraphe">Ce projet m'a permis d'utiliser des méthodes comme
+                                        fetch, async, await et découvrir l'AJAX. J'ai aussi rajouter la possibilité de
+                                        changer de ville et j'ai implémenter des photos en arrière plan qui
+                                        correspondent au temps qu'il fait.</p>
+                                    <!-- <p>Sed vitae efficitur turpis. Nam semper neque et vestibulum egestas. Proin feugiat enim sit amet molestie placerat. Integer consequat enim aliquam, ullamcorper mauris id, maximus tortor.</p> -->
+                                    <a href="http://www.fittywebdev.ovh/H%C3%A9cate/" target="_blank"
+                                        class="project-link">&Rarr;</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col3 portfolio-item">
+                    <a data-fancybox="gallery" data-src="#006" href="">
+                        <img src="images/portfolio/ogato_480x350.jpg" alt="006">
+                    </a>
+                    <div style="display:none;" class="portfolio-pop" id="006">
+                        <div class="row">
+                            <div class="col8">
+                                <img src="images/portfolio/ogato.png" alt="006">
+                            </div>
+                            <div class="col4">
+                                <h3 class="project-title">O' Gato</h3>
+                                <div class="lead project-description">
+                                    <p>Premier projet de design réaliser pour une amie avec le logiciel Adobe XD, pour
+                                        son magasin de pâtisseries gourmandes.</p>
+                                    <p>Mon amie voulait un site minimaliste, avec des couleurs pastel et qui mettent en
+                                        avant les produits, il fallait que les photos donne faim au client !.</p>
+                                    <p class="projet-paragraphe">Je me suis donc formé au design minimaliste, (j'en suis
+                                        tombé amoureux d'ailleurs !), pour lui proposer une page d'acceuil simple,
+                                        épurée aux couleurs pastel ou les produits et les CTA seraient mis en avant !.
+                                    </p>
+                                    <p class="projet-paragraphe">Ce travail de "maquettage" m'a permis de développer une
+                                        véritable passion pour le design, je continue donc mon apprentissage pour
+                                        m'améliorer dans ce domaine .</p>
+                                    <!-- <a href="https://www.fittywellkids.com" class="project-link">&Rarr;</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col3 portfolio-item">
+                    <a data-fancybox="gallery" data-src="#007" href="">
+                        <img src="images/portfolio/foliominimaliste_480x350.jpg" alt="007">
+                    </a>
+                    <div style="display:none;" class="portfolio-pop" id="007">
+                        <div class="row">
+                            <div class="col8">
+                                <img src="images/portfolio/foliominimaliste.png" alt="007">
+                            </div>
+                            <div class="col4">
+                                <h3 class="project-title">Portfolio</h3>
+                                <div class="lead project-description">
+                                    <p>Projet réalisé dans le cadre de ma formation sur le logiciel Adobe XD, il était
+                                        demandé de faire la maquette d'un portfolio pour un designer ou un développeur.
+                                    </p>
+                                    <p>Soucieux de sortir de ce qui se fait habituellement et étant vraiment fan du
+                                        minimalisme j'ai essayé de faire un design dans ce style là, simple et épuré.
+                                    </p>
+                                    <p class="projet-paragraphe">J'ai essayé de me rapprocher le plus possible des
+                                        tendances actuelles, avec un design aéré, un peu assymétrique, l'essentiel étant
+                                        les projets eux mêmes .</p>
+                                    <p class="projet-paragraphe">Le design a plu a un client, nous avons ajouter un peu
+                                        de couleurs et de dégradés, et le design est en cours d'achèvement en vu d'une
+                                        intégration prochaine.</p>
+                                    <!-- <a href="https://www.fittywellkids.com" class="project-link">&Rarr;</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col3 portfolio-item">
+                    <a data-fancybox="gallery" data-src="#008" href="">
+                        <img src="images/portfolio/race_480x350.jpg" alt="008">
+                    </a>
+                    <div style="display:none;" class="portfolio-pop" id="008">
+                        <div class="row">
+                            <div class="col8">
+                                <img src="images/portfolio/race.png" alt="008">
+                            </div>
+                            <div class="col4">
+                                <h3 class="project-title">Romo Race</h3>
+                                <div class="lead project-description">
+                                    <p>Un autre projet réalisé au coours de ma formation Adobe XD, projet libre seule
+                                        les couleurs nous étaient donné au départ..</p>
+                                    <p>Ces couleurs m'on fait penser a une affiche vintage que j'avais vu sur une course
+                                        de voitures et de moto anciennes qui a lieu tous les ans au Danemark.</p>
+                                    <p class="projet-paragraphe">J'ai donc réaliser un genre de portfolio pour mettre en
+                                        avant la course et surtout les superbes modèles vintages qui y participent, la
+                                        encore j'ai cherché un design un peu assymétrique avec une inspiration vintage
+                                        !.</p>
+                                    <p class="projet-paragraphe">Ce design utilise des photos et des informations
+                                        officielles de la course, et ne sera donc pas intégré.</p>
+                                    <!-- <a href="https://www.fittywellkids.com" class="project-link">&Rarr;</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     <section class="section" id="clients">
+        <div class="container">
+            <div class="row">
+                <div class="col12">
+                    <header class="section-header">
+                        <h1 class="section-title">My Clients</h1>
+                        <p class="lead text-center">Here's what some of my past clients have said about working with me</p>
+                    </header>
+                </div>
+            </div>
+            <div class="row testimonials">
+                <div class="col4 testimonial-item">
+                    <img class="img-rounded testimonial-avatar" src="images/clients/001-300.jpg" alt="Jenny Doe">
+                    <div class="testimonial text-center">
+                        <h3 class="testimonial-title">Fantabulous!</h3>
+                        <p class="testimonial-content">Joe is the bomb-diggity! And, that stache. Just beware the stare. That thing is wicked.</p>
+                        <p class="testimonial-author">Jenny Doe</p>
+                    </div>
+                </div>
+                <div class="col4 testimonial-item">
+                    <img class="img-rounded testimonial-avatar" src="images/clients/003-300.jpg" alt="Jeffrey Doe">
+                    <div class="testimonial text-center">
+                        <h3 class="testimonial-title">Stupendous!</h3>
+                        <p class="testimonial-content">Joe is the bomb-diggity! And, that stache. Just beware the stare. That thing is wicked.</p>
+                        <p class="testimonial-author">Jeffrey Doe</p>
+                    </div>
+                </div>
+                <div class="col4 testimonial-item">
+                    <img class="img-rounded testimonial-avatar" src="images/clients/002-300.jpg" alt="Erika Doe">
+                    <div class="testimonial text-center">
+                        <h3 class="testimonial-title">Amazing!</h3>
+                        <p class="testimonial-content">Joe is the bomb-diggity! And, that stache. Just beware the stare. That thing is wicked.</p>
+                        <p class="testimonial-author">Erika Doe</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col6">
+                    <header class="section-header">
+                        <h1 class="section-title text-left">Je vous offre un café ?</h1>
+                        <p class="lead">Vous avez un projet, ou une idée alors contactez-moi! En plus c'est mon premier
+                            formulaire en PHP, faites le au moins pour voir si le formulaire fonctionne !</p>
+                    </header>
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><i class="fa fa-map-marker"></i>11 rue du moulin 81400 Carmaux</li>
+                        <li class="list-inline-item"><i class="fa fa-phone"></i>+33 06 24 35 29 54</li>
+                        <li class="list-inline-item"><i class="fa fa-envelope"></i>contact@fredericguerra.fr</li>
+                    </ul>
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><i class="fab fa-codepen reseaux"></i><a
+                                href="https://codepen.io/dashboard/" target="_blank" class="list-link">Retrouvez moi sur
+                                codepen</a></li>
+                        <li class="list-inline-item"><i class="fab fa-linkedin reseaux"></i><a
+                                href="https://www.linkedin.com/in/fittywellkids/" target="_blank" class="list-link">Si
+                                vous préférez Linkedin</a></li>
+                        <li class="list-inline-item"><i class="fab fa-behance reseaux"></i><a
+                                href="https://www.behance.net/louloufgaa33" target="_blank" class="list-link">Mes
+                                design, behance !</a></li>
+                    </ul>
+                    <a href=""></a>
+                </div>
+                <div class="col6">
+                    <form action="process.php" method="post" class="dark contact-form">
+                        <h3 class="form-title">Contactez Moi</h3>
+                        <div class="form-field">
+                            <input class="text" type="text" name="name" placeholder="Votre nom" required>
+                        </div>
+                        <div class="form-field">
+                            <input class="text email" type="email" name="email" placeholder=" Votre Email" required>
+                        </div>
+                        <div class="form-field">
+                            <textarea class="textarea" name="message" placeholder="Cher Frédéric .."
+                                required></textarea>
+                        </div>
+                        <div class="form-field" style="display: none;">
+                            <input type="hidden" name="url" placeholder="URL">
+                        </div>
+                        <input class="btn btn-submit" type="submit" value="message">
+                        <div id="status-messages"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col12 text-center">
+                    Copyright &copy; 2018 Frédéric Guerra.
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Scripts -->
+    <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
+    <script src="js/freelancer001.js"></script>
+</body>
+
+</html>
